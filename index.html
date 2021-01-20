@@ -17,20 +17,21 @@
     </div>
 
     <!-- Ramen Details -->
-    <div id="ramen-detail">
-      <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
-      <h2 class="name">Insert Name Here</h2>
-      <h3 class="restaurant">Insert Restaurant Here</h3>
+    <div id="ramen-detail-form">
+      <div id="ramen-detail">
+        <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
+        <h2 class="name">Insert Name Here</h2>
+        <h3 class="restaurant">Insert Restaurant Here</h3>
+      </div>
+
+      <!-- Rating Form -->
+      <form id="ramen-rating" data-id="insert ramen ID">
+       <label for="rating">Rating: </label>
+       <input type="text" name="rating" id="rating" value="Insert Rating Here" />
+        <label for="comment">Comment: </label>
+        <textarea name="comment" id="comment">Insert Comment Here</textarea>
+        <input type="submit" value="Update" />
+      </form>
     </div>
-
-    <!-- Rating Form -->
-    <form id="ramen-rating" data-id="insert ramen ID">
-      <label for="rating">Rating: </label>
-      <input type="text" name="rating" id="rating" value="Insert Rating Here" />
-      <label for="comment">Comment: </label>
-      <textarea name="comment" id="comment">Insert Comment Here</textarea>
-      <input type="submit" value="Update" />
-    </form>
-
   </body>
 </html>
